@@ -3,14 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="layout.sample"
              Title="sample">
-    <FlexLayout Direction="Column">
+            
+    <AbsoluteLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
-           />
+             Text="Welcome to .NET MAUI!"
+            AbsoluteLayout.LayoutBounds="100,200,200,100"
+         />
         <Button
             Text="click 1"
             HeightRequest="100"
             WidthRequest="200"
+            AbsoluteLayout.LayoutBounds="200,100,100,200"
             ></Button>
         <Button
              Text="click 2"
@@ -22,5 +25,5 @@
             HeightRequest="100"
             WidthRequest="200"
             ></Button>
-    </FlexLayout>
+    </AbsoluteLayout>
 </ContentPage>
