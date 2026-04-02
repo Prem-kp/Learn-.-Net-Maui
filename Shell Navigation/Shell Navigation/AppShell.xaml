@@ -6,19 +6,19 @@
     xmlns:local="clr-namespace:Shell_Navigation"
     xmlns:pages="clr-namespace:Shell_Navigation.pages"
     Title="Shell_Navigation">
-    <TabBar>
-    <ShellContent
+    <FlyoutItem Title="home page">
+        <ShellContent
         Title="page1"
         ContentTemplate="{DataTemplate pages:Page1}"
          />
-    <ShellContent
+        <ShellContent
         Title="page2"
         ContentTemplate="{DataTemplate pages:Page2}"
         />
-        <ShellContent
+    </FlyoutItem>
+    <ShellContent
         Title="page3"
         ContentTemplate="{DataTemplate pages:Page3}"
         />
-    </TabBar>
 
 </Shell>
