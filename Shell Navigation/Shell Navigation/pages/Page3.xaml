@@ -8,5 +8,9 @@
            Text="Welcome to page 3"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <Button Text="go to pagge 3"
+        Clicked="Button_Clicked"
+        Margin="30"/>
+
     </VerticalStackLayout>
 </ContentPage>
