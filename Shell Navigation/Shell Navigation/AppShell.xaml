@@ -6,7 +6,7 @@
     xmlns:local="clr-namespace:Shell_Navigation"
     xmlns:pages="clr-namespace:Shell_Navigation.pages"
     Title="Shell_Navigation">
-    <FlyoutItem Title="home page">
+  
         <ShellContent
         Title="page1"
         ContentTemplate="{DataTemplate pages:Page1}"
@@ -15,7 +15,7 @@
         Title="page2"
         ContentTemplate="{DataTemplate pages:Page2}"
         />
-    </FlyoutItem>
+   
     <ShellContent
         Title="page3"
         ContentTemplate="{DataTemplate pages:Page3}"

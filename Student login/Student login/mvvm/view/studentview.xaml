@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Student_login.mvvm.view.studentview"
+             Title="studentview">
+    <VerticalStackLayout>
+        <Label 
+            Text="Student Login" FontSize="Medium"
+          Margin="30"
+             />
+        <Entry Placeholder="username" Text="{Binding username}" Margin="50" />
+        <Entry Placeholder="password" IsPassword="True" Text="{Binding password}" Margin="50"/>
+        <Button Text="Verify" Command="{Binding verifycommand}" Margin="100"/>
+    </VerticalStackLayout>
+</ContentPage>
