@@ -1,4 +1,4 @@
-﻿namespace Hello_world
+﻿namespace hello_world
 {
     public partial class MainPage : ContentPage
     {

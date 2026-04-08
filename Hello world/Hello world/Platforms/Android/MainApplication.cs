@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace Hello_world
+namespace hello_world
 {
     [Application]
     public class MainApplication : MauiApplication

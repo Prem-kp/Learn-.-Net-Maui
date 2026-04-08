@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:view="clr-namespace:StudentManagementApp.View"
+    x:Class="StudentManagementApp.AppShell"
+    Shell.FlyoutBehavior="Disabled">
+
+    <!-- Login is the starting page -->
+    <ShellContent Route="LoginPage"
+               ContentTemplate="{DataTemplate views:LoginPage}"
+               Shell.NavBarIsVisible="False"/>
+
+    <!-- Main tabbed page after login -->
+    <ShellContent Route="MainTabbedPage"
+               ContentTemplate="{DataTemplate views:MainTabbedPage}"/>
+
+</Shell>
+  

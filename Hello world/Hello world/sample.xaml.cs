@@ -1,9 +1,10 @@
-namespace Hello_world;
-
-public partial class NewPage1 : ContentPage
+namespace Hello_world
 {
-	public NewPage1()
-	{
-		InitializeComponent();
-	}
+    public partial class NewPage1 : ContentPage
+    {
+        public NewPage1()
+        {
+            InitializeComponent();
+        }
+    }
 }

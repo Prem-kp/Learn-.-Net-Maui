@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace Student_login
+namespace student_login
 {
     public static class MauiProgram
     {

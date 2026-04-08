@@ -1,4 +1,4 @@
-﻿namespace Student_login
+﻿namespace student_login
 {
     public partial class MainPage : ContentPage
     {

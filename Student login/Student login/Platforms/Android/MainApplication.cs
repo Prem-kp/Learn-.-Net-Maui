@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace Student_login
+namespace student_login
 {
     [Application]
     public class MainApplication : MauiApplication

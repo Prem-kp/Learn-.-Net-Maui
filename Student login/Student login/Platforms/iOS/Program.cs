@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace Student_login
+namespace student_login
 {
     public class Program
     {

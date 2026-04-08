@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Hello_world
+namespace hello_world
 {
     public partial class App : Application
     {

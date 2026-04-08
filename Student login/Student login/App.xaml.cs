@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Student_login.mvvm.view;
 
-namespace Student_login
+namespace student_login
 {
     public partial class App : Application
     {
@@ -12,7 +11,7 @@ namespace Student_login
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            return new Window(new studentview());
+            return new Window(new AppShell());
         }
     }
 }
