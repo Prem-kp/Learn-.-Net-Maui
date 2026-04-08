@@ -37,7 +37,7 @@ namespace student__management_login.viewmodel
                 await Application.Current.MainPage.DisplayAlert("validation error", "Provided UserId or Password is Empty", "Okay");
                     return;
             }
-            else if (UserId ==45  && Password=="admin")
+            else if (UserId ==8 && Password=="admin")
             {
                await Shell.Current.GoToAsync(nameof(studentmarkview));
                 
